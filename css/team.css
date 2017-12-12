@@ -1,0 +1,20 @@
+.team, .advisors{
+    background-color: #f5f5f5;
+}
+.team .team-item, .advisors .advisor-item{
+}
+.team .team-item .img-wrapper, .advisors .advisor-item .img-wrapper{
+    position: relative;
+    min-width: 200px;
+    max-width: 200px;
+}
+.team .team-item .img-responsive, .advisors .advisor-item .img-responsive{
+    max-width:200px;
+    filter: grayscale(100%);
+    border-radius: 50%;
+}
+.team .team-item .social-icon, .advisors .advisor-item .social-icon{
+    position: absolute;
+    bottom:0;
+    right:0;
+}

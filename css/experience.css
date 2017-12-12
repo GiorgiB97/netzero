@@ -1,0 +1,11 @@
+@media (max-width: 991px){
+    .netzero-experience .experience-item img{
+        max-width: 200px;
+        width:100%;
+        margin:0 auto;
+        padding-left: 0;
+    }
+}
+.netzero-experience{
+    background-color: #f5f5f5;
+}
