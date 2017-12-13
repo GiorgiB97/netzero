@@ -2,6 +2,7 @@
     position: absolute;
     height:100%;
     width:100%;
+    left:0;
     top:-30px;
     opacity:0.3;
 }
@@ -13,7 +14,7 @@
     margin: 1em auto;
     border-radius: 50%;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid #58ba5b;
 }
 
 .intro .timer-wrapper .content {
@@ -50,4 +51,10 @@
 
 .sponsors .row{
     text-align: center;
+}
+
+@media (max-width: 768px){
+    .intro{
+        text-align: center;
+    }
 }
